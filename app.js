@@ -116,7 +116,7 @@ app.put("/update/menu/:id", async (req, res) => {
   }
 });
 
-// Delete User by ID
+// Delete Menu by ID
 app.delete("/delete/menu/:id", async (req, res) => {
   try {
     const menuId = req.params.id;
